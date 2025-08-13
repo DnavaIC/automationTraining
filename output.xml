@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.2 on darwin)" generated="2025-08-12T19:32:37.681709" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="/Users/charly/automationTraining/test.robot">
+<test id="s1-t1" name="Open Browser And Check Title" line="5">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-08-12T19:32:37.788991" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/charly/automationTraining/browser/traces/temp/798f6823-60ee-47c5-814a-704b79f4ea7e"}</msg>
+<msg time="2025-08-12T19:32:37.857689" level="INFO">Starting Browser process /Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:58053</msg>
+<msg time="2025-08-12T19:32:39.554778" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/charly/automationTraining/browser/traces/temp/798f6823-60ee-47c5-814a-704b79f4ea7e"}</msg>
+<arg>chromium</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-08-12T19:32:37.788674" elapsed="1.766347"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-08-12T19:32:41.224840" level="INFO">Successfully initialized new page object and opened url: https://robotframework.org</msg>
+<msg time="2025-08-12T19:32:41.224910" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://robotframework.org</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-08-12T19:32:39.555363" elapsed="1.669688"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2025-08-12T19:32:41.230720" level="INFO">Title: 'Robot Framework'</msg>
+<msg time="2025-08-12T19:32:41.230850" level="INFO">${title} = Robot Framework</msg>
+<var>${title}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2025-08-12T19:32:41.225249" elapsed="0.005620"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${title}</arg>
+<arg>Robot Framework</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2025-08-12T19:32:41.231028" elapsed="0.000222"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-08-12T19:32:41.250769" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-12T19:32:41.231355" elapsed="0.019522"/>
+</kw>
+<status status="PASS" start="2025-08-12T19:32:37.788218" elapsed="3.462822"/>
+</test>
+<status status="PASS" start="2025-08-12T19:32:37.682286" elapsed="3.571487"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="1" fail="0" skip="0">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,49 @@
+{"level":30,"time":"2025-08-13T01:32:38.231Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Listening on 127.0.0.1:58053"}
+(node:40248) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-08-13T01:32:39.312Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-13T01:32:39.553Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Adding browser to stack: chromium, version: 139.0.7258.5"}
+{"level":30,"time":"2025-08-13T01:32:39.554Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-13T01:32:39.554Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-13T01:32:39.556Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-13T01:32:39.556Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@334de2957db0456357329174d8b47ebb\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=9223e95c-b9a3-4826-a18d-6509beb4fbe4\"}"}
+{"level":30,"time":"2025-08-13T01:32:39.561Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Setting default timeout for context context=a0a84022-4640-42da-91e6-20f01249075a to 10000"}
+{"level":30,"time":"2025-08-13T01:32:39.561Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context: context=a0a84022-4640-42da-91e6-20f01249075a"}
+{"level":30,"time":"2025-08-13T01:32:39.688Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-13T01:32:39.688Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
+{"level":30,"time":"2025-08-13T01:32:41.223Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-13T01:32:41.232Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-13T01:32:41.237Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Removed page=cdd101b8-4714-49b9-a3e9-2f2db476b26d from context=a0a84022-4640-42da-91e6-20f01249075a page stack"}
+{"level":30,"time":"2025-08-13T01:32:41.250Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-08-13T01:32:41.253Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-13T01:32:41.253Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13124:59)
+    at PlaywrightServer.setTimeout (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13372:57)
+    at Object.onReceiveHalfClose (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/charly/automationTraining/venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-08-13T01:32:41.255Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-13T01:32:41.255Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-13T01:32:41.269Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-13T01:32:41.270Z","pid":40248,"hostname":"MacBook-Air-de-Carlos.local","msg":"End of node method closeAllBrowsers"}
