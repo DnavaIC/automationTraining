@@ -1,0 +1,53 @@
+{"level":30,"time":"2025-09-24T17:50:26.964Z","pid":16324,"hostname":"ICN-IT005","msg":"Listening on 127.0.0.1:63672"}
+(node:16324) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-09-24T17:50:27.504Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-24T17:50:27.505Z","pid":16324,"hostname":"ICN-IT005","msg":"No active browser, creating a new one"}
+{"level":30,"time":"2025-09-24T17:50:27.633Z","pid":16324,"hostname":"ICN-IT005","msg":"Setting default timeout for context context=4691834c-4e90-4c09-8fdf-8c3c85f10695 to 10000"}
+{"level":30,"time":"2025-09-24T17:50:27.634Z","pid":16324,"hostname":"ICN-IT005","msg":"Changed active context: context=4691834c-4e90-4c09-8fdf-8c3c85f10695"}
+{"level":30,"time":"2025-09-24T17:50:27.740Z","pid":16324,"hostname":"ICN-IT005","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-24T17:50:27.741Z","pid":16324,"hostname":"ICN-IT005","msg":"Changed active page"}
+{"level":30,"time":"2025-09-24T17:50:28.201Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-24T17:50:28.215Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-24T17:50:28.224Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-24T17:50:28.232Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-09-24T17:50:28.233Z","pid":16324,"hostname":"ICN-IT005","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2025-09-24T17:50:28.349Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method typeText"}
+{"level":30,"time":"2025-09-24T17:50:28.355Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-09-24T17:50:28.355Z","pid":16324,"hostname":"ICN-IT005","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-09-24T17:50:28.432Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method typeText"}
+{"level":30,"time":"2025-09-24T17:50:28.438Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-24T17:50:28.438Z","pid":16324,"hostname":"ICN-IT005","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2025-09-24T17:50:28.536Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method click"}
+{"level":30,"time":"2025-09-24T17:50:28.543Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-24T17:50:28.543Z","pid":16324,"hostname":"ICN-IT005","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2025-09-24T17:50:28.559Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-24T17:50:28.568Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-24T17:50:28.568Z","pid":16324,"hostname":"ICN-IT005","msg":"Strict mode is enabled, find Locator with css=.header_secondary_container in page."}
+{"level":30,"time":"2025-09-24T17:50:28.577Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-24T17:50:28.600Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-24T17:50:28.600Z","pid":16324,"hostname":"ICN-IT005","msg":"Strict mode is enabled, find Locator with css= .title in page."}
+{"level":30,"time":"2025-09-24T17:50:28.635Z","pid":16324,"hostname":"ICN-IT005","msg":"Retrieved text for element css= .title containing Products"}
+{"level":30,"time":"2025-09-24T17:50:28.636Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-24T17:50:28.663Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-24T17:50:28.668Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-24T17:50:28.677Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-09-24T17:50:28.687Z","pid":16324,"hostname":"ICN-IT005","msg":"Removed page=efd6f825-4e08-43cc-b7f2-aa137c9a41b7 from context=4691834c-4e90-4c09-8fdf-8c3c85f10695 page stack"}
+{"level":30,"time":"2025-09-24T17:50:28.771Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\SaulMurillo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\SaulMurillo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (C:\Users\SaulMurillo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (C:\Users\SaulMurillo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\SaulMurillo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\SaulMurillo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\SaulMurillo\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-09-24T17:50:28.783Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-24T17:50:28.784Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-24T17:50:29.639Z","pid":16324,"hostname":"ICN-IT005","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-24T17:50:29.640Z","pid":16324,"hostname":"ICN-IT005","msg":"End of node method closeAllBrowsers"}
