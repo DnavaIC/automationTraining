@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on darwin)" generated="2026-01-30T14:19:23.580591" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Pruebas" source="/Users/omarviquez/automationtraining/automationTraining/login_pruebas.robot">
+<test id="s1-t1" name="Login Fallido en Saucedemo" line="5">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-01-30T14:19:23.672168" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/omarviquez/automationtraining/automationTraining/browser/traces/temp/ed7711d6-e022-4243-bd54-0aa369c5318b"}</msg>
+<msg time="2026-01-30T14:19:23.690240" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/Browser/wrapper/index.js using at 127.0.0.1:63655</msg>
+<msg time="2026-01-30T14:19:25.429658" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/omarviquez/automationtraining/automationTraining/browser/traces/temp/ed7711d6-e022-4243-bd54-0aa369c5318b"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-01-30T14:19:23.671725" elapsed="1.758147"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-01-30T14:19:27.182938" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<msg time="2026-01-30T14:19:27.183009" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-01-30T14:19:25.430221" elapsed="1.752898"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-01-30T14:19:27.183716" level="INFO">Fills the text 'user_error' in the given field.</msg>
+<arg>id=user-name</arg>
+<arg>user_error</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:27.183320" elapsed="0.021402"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-01-30T14:19:27.205258" level="INFO">Fills the text 'password_error' in the given field.</msg>
+<arg>id=password</arg>
+<arg>password_error</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:27.204912" elapsed="0.033968"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-01-30T14:19:27.239644" level="INFO">Clicks the element 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:27.239198" elapsed="0.083821"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-01-30T14:19:27.340605" level="INFO">Text: 'Epic sadface: Username and password do not match any user in this service'</msg>
+<arg>css=[data-test="error"]</arg>
+<arg>contains</arg>
+<arg>Epic sadface: Username and password do not match</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:27.323229" elapsed="0.017478"/>
+</kw>
+<msg time="2026-01-30T14:19:27.346965" level="INFO">Switching context to context=dd46a686-3575-4f4c-8517-e28878d4f7cd in CURRENT</msg>
+<msg time="2026-01-30T14:19:27.351153" level="INFO">Successfully changed active context: context=dd46a686-3575-4f4c-8517-e28878d4f7cd</msg>
+<msg time="2026-01-30T14:19:27.545802" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-01-30T14:19:23.671117" elapsed="3.669803"/>
+</test>
+<test id="s1-t2" name="Login Exitoso" line="13">
+<kw name="New Page" owner="Browser">
+<msg time="2026-01-30T14:19:28.329429" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<msg time="2026-01-30T14:19:28.329492" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-01-30T14:19:27.547296" elapsed="0.782279"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-01-30T14:19:28.330227" level="INFO">Fills the text 'standard_user' in the given field.</msg>
+<arg>id=user-name</arg>
+<arg>standard_user</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:28.329750" elapsed="0.018918"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-01-30T14:19:28.349238" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
+<arg>id=password</arg>
+<arg>secret_sauce</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:28.348862" elapsed="0.036771"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-01-30T14:19:28.386349" level="INFO">Clicks the element 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:28.385910" elapsed="0.069410"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-01-30T14:19:28.471707" level="INFO">Text: 'Products'</msg>
+<arg>css=.title</arg>
+<arg>contains</arg>
+<arg>Products</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:28.455513" elapsed="0.016280"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-01-30T14:19:28.472346" level="INFO">Clicks the element 'id=react-burger-menu-btn'.</msg>
+<arg>id=react-burger-menu-btn</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:28.471982" elapsed="0.673433"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-01-30T14:19:29.146013" level="INFO">Clicks the element 'id=logout_sidebar_link'.</msg>
+<arg>id=logout_sidebar_link</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:29.145611" elapsed="1.132071"/>
+</kw>
+<kw name="Get Element States" owner="Browser">
+<msg time="2026-01-30T14:19:30.289772" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<arg>id=login-button</arg>
+<arg>contains</arg>
+<arg>visible</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:19:30.277869" elapsed="0.011992"/>
+</kw>
+<msg time="2026-01-30T14:19:30.294540" level="INFO">Switching context to context=57f2a40e-c246-4006-90da-300cc2a39630 in CURRENT</msg>
+<msg time="2026-01-30T14:19:30.298852" level="INFO">Successfully changed active context: context=57f2a40e-c246-4006-90da-300cc2a39630</msg>
+<msg time="2026-01-30T14:19:30.315113" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-01-30T14:19:27.546144" elapsed="2.743952"/>
+</test>
+<status status="PASS" start="2026-01-30T14:19:23.581570" elapsed="6.734042"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Pruebas" id="s1" pass="2" fail="0" skip="0">Login Pruebas</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
