@@ -1,0 +1,43 @@
+{"level":30,"time":"2026-01-30T20:15:51.829Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Listening on 127.0.0.1:63446"}
+{"level":30,"time":"2026-01-30T20:15:52.877Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-01-30T20:15:55.096Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-01-30T20:15:55.097Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-01-30T20:15:55.097Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-01-30T20:15:55.099Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-01-30T20:15:55.100Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@bbb265658607057ab727c669b89d038d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b472632f-6593-4510-8179-818df1c3d51f\"}"}
+{"level":30,"time":"2026-01-30T20:15:55.105Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Setting default timeout for context context=a459cb75-7d52-48d6-83e0-c6c0cec34b9a to 10000"}
+{"level":30,"time":"2026-01-30T20:15:55.105Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Changed active context: context=a459cb75-7d52-48d6-83e0-c6c0cec34b9a"}
+{"level":30,"time":"2026-01-30T20:15:56.381Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-01-30T20:15:56.381Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Changed active page"}
+{"level":30,"time":"2026-01-30T20:15:56.956Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-01-30T20:15:56.959Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-01-30T20:15:56.959Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-01-30T20:15:56.979Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-01-30T20:15:56.981Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-01-30T20:15:56.981Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-01-30T20:15:57.013Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-01-30T20:15:57.016Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-01-30T20:15:57.016Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-01-30T20:15:57.163Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method click"}
+{"level":30,"time":"2026-01-30T20:15:57.166Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-01-30T20:15:57.166Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Strict mode is enabled, find Locator with css=[data-test=\"error\"] in page."}
+{"level":30,"time":"2026-01-30T20:15:57.189Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Retrieved text for element css=[data-test=\"error\"] containing Epic sadface: Username and password do not match any user in this service"}
+{"level":30,"time":"2026-01-30T20:15:57.189Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-01-30T20:15:57.193Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.195Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.196Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.197Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.198Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.199Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.202Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.204Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.206Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Changed active context: context=a459cb75-7d52-48d6-83e0-c6c0cec34b9a"}
+{"level":30,"time":"2026-01-30T20:15:57.206Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Changing current active page: page=222c424a-a869-43e8-ae62-7eaaea59f4f5"}
+{"level":30,"time":"2026-01-30T20:15:57.206Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Changed active page"}
+{"level":30,"time":"2026-01-30T20:15:57.211Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-01-30T20:15:57.267Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Removed page=ebb3c960-85f1-4a31-a89f-19b11a4104fb from context=a459cb75-7d52-48d6-83e0-c6c0cec34b9a page stack"}
+{"level":30,"time":"2026-01-30T20:15:57.364Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-01-30T20:15:57.367Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.367Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-01-30T20:15:57.380Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-01-30T20:15:57.562Z","pid":5146,"hostname":"MacBook-Pro-de-HELPDESK.local","msg":"End of node method closeAllBrowsers"}

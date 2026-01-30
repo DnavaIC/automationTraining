@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on darwin)" generated="2026-01-30T14:15:51.428317" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Pruebas" source="/Users/omarviquez/automationtraining/automationTraining/login_pruebas.robot">
+<test id="s1-t1" name="Login Fallido en Saucedemo" line="5">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-01-30T14:15:51.516962" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/omarviquez/automationtraining/automationTraining/browser/traces/temp/62217132-ca3d-4419-afa2-a74544c82a43"}</msg>
+<msg time="2026-01-30T14:15:51.535175" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/Browser/wrapper/index.js using at 127.0.0.1:63446</msg>
+<msg time="2026-01-30T14:15:55.097598" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/omarviquez/automationtraining/automationTraining/browser/traces/temp/62217132-ca3d-4419-afa2-a74544c82a43"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-01-30T14:15:51.516531" elapsed="3.581298"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-01-30T14:15:56.957718" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<msg time="2026-01-30T14:15:56.957788" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-01-30T14:15:55.098256" elapsed="1.859643"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-01-30T14:15:56.958515" level="INFO">Fills the text 'user_error' in the given field.</msg>
+<arg>id=user-name</arg>
+<arg>user_error</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:15:56.958108" elapsed="0.021762"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-01-30T14:15:56.980503" level="INFO">Fills the text 'password_error' in the given field.</msg>
+<arg>id=password</arg>
+<arg>password_error</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:15:56.980114" elapsed="0.034588"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-01-30T14:15:57.015275" level="INFO">Clicks the element 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:15:57.014915" elapsed="0.149678"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-01-30T14:15:57.190755" level="INFO">Text: 'Epic sadface: Username and password do not match any user in this service'</msg>
+<arg>css=[data-test="error"]</arg>
+<arg>contains</arg>
+<arg>Epic sadface: Username and password do not match</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-01-30T14:15:57.164982" elapsed="0.025983"/>
+</kw>
+<msg time="2026-01-30T14:15:57.200413" level="INFO">Switching context to context=a459cb75-7d52-48d6-83e0-c6c0cec34b9a in CURRENT</msg>
+<msg time="2026-01-30T14:15:57.210972" level="INFO">Successfully changed active context: context=a459cb75-7d52-48d6-83e0-c6c0cec34b9a</msg>
+<msg time="2026-01-30T14:15:57.365236" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-01-30T14:15:51.515956" elapsed="5.675503"/>
+</test>
+<status status="PASS" start="2026-01-30T14:15:51.429052" elapsed="5.936667"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Pruebas" id="s1" pass="1" fail="0" skip="0">Login Pruebas</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
